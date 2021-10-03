@@ -146,6 +146,7 @@ export default class Hotel extends Vue {
 		.hotel-page__container-form-booking {
 			width: 40%;
 			margin: 0 auto;
+			margin-bottom: 40px;
 			padding: 16px;
 
 			border-radius: 8px;
