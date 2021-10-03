@@ -24,7 +24,7 @@ export default new Vuex.Store({
 		async getHotels({commit}) {
 			const currentLimit = 15
 			try {
-				const response = await axios.get("http://jsonplaceholder.typicode.com/posts", {
+				const response = await axios.get("https://jsonplaceholder.typicode.com/posts", {
 					params: {
 						_limit: currentLimit
 					}
@@ -37,7 +37,7 @@ export default new Vuex.Store({
 		// Action для получения информации об отеле по id
 		async getCurrentHotel({commit}, id) {
 			try {
-				const response = await axios.get(`http://jsonplaceholder.typicode.com/posts/${id}`)
+				const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
 				commit("saveCurrentHotel", response?.data)
 			} catch (error) {
 				console.error(error)
