@@ -1,4 +1,5 @@
 module.exports = {
+	publicPath: "/test_task_cuva/",
 	css: {
 	  loaderOptions: {
 		sass: {
