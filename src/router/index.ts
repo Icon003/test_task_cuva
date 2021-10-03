@@ -20,7 +20,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
 	mode: "history",
-	base: "/",
+	base: "/test_task_cuva/",
 	routes
 });
 
