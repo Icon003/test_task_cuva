@@ -23,12 +23,14 @@
 import { Component, Vue } from "vue-property-decorator";
 import AppLoader from "@/components/UI/AppLoader.vue"
 import Header from "@/components/Header.vue";
+import AppTitle from "@/components/UI/AppTitle.vue"
 import CardHotel from "@/components/CardHotel.vue";
 
 @Component({
 	components: {
 		AppLoader,
 		Header,
+		AppTitle,
 		CardHotel
 	}
 })
